@@ -1,0 +1,29 @@
+@media screen and (max-width: 920px){
+    nav ul{
+        display: none;
+    }
+    #home{
+        background-size: cover;
+        min-height: 75vh;
+    }
+    #home span{
+        font-size: 1.2rem;
+    }
+    #projects{
+        margin: 40px;
+    }
+    #project .image-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #about{
+        margin:40px ;
+    }
+    #about .about-title{
+        font-size: .9rem;
+    }
+    #about .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
